@@ -1,0 +1,19 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 145, 255, 0.121);
+    color:black;
+    text-align: center;
+}
+
+i{
+    padding-right: 10px;
+}
+
+main{
+    padding-top: 20px;
+}
+
+.navbar-brand{
+    font-family: Arial, Helvetica, sans-serif;
+    color:black
+}
