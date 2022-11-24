@@ -73,6 +73,11 @@ main{
     background-color: gold;
 }
 
-PieDePagina {
-    background-color: rgb(171, 255, 255);
+.parrafo{
+    font-style: italic;
+    font-size: large;
+    padding: 50px;
 }
+
+
+

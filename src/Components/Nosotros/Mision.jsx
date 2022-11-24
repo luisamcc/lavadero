@@ -6,10 +6,13 @@ const Mision = () => {
         <div class="container" className="mision">
             <div class="align-items-center justify-content-between">
                 <h1 class="text-center">Misión</h1>
-                <p class="p-5">
-                    Nuestros fundadores aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+                <p class="p-5" className="parrafo">
+                    <center >
+                "Brindar la mejor experiencia de lavado a otros amantes de los autos y demás consumidores 
+                que estén interesados en ciudar sus vehiculos, a través de innovadores procesos de limpieza, 
+                teconología de punta y transformando la manera de ver el cuidado de los carros, no solo a una
+                necesidad, sino una experiencia placentera".
+                    </center>
                 </p>
             </div>
         </div>

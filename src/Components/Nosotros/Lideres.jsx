@@ -7,9 +7,9 @@ const Lideres = () => {
             <div class="align-items-center justify-content-between">
                 <h1 class="text-center">Nuestros Lideres</h1>
                 <p class="p-5">
-                    Nuestros fundadores aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+                    Nos enorgullesemos de nuestros fundadores, 5 amantes de los autos que pese a sus
+                    diferencias, hicieron acopio de todos sus talentos y hoy en día son reconocidos
+                    internacionalmente por volver su pasión un negocio rentable.
                 </p>
                 <div class="row">
                     <div class="col text-center img-center pt-3">

@@ -6,10 +6,11 @@ const Vision = () => {
         <div class="container" className="vision">
             <div class="align-items-center justify-content-between">
                 <h1 class="text-center">Visión</h1>
-                <p class="p-5">
-                    Nuestros fundadores aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+                <p class="p-5" className="parrafo">
+                    <center>
+                    "Transformar la experiencia de los usuarios de autolavados y aumentar el amor de sus dueños
+                    por sus vehiculos".
+                    </center>
                 </p>
             </div>
         </div>

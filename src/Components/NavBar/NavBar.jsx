@@ -9,25 +9,25 @@ const NavBar = () =>{
             <ul className="navbar-nav">
               <li className="nav-item">
                 <Link className="navbar-brand" to="/" >
-                    EDGA
+                    EGDA
                 </Link>
               </li>  
               <li className="nav-item">  
                 <Link className="nav-link active" to={ '/nosotros' }>
-                    <i></i>
+                    <i className="bi bi-house"></i>
                   Nosotros
                 </Link>
               </li>
               
               <li className="nav-item">
                 <Link className="nav-link active" to={ '/servicios' }>
-                    <i></i>
+                    <i className="bi bi-car-front-fill"></i>
                   Servicios
                 </Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link active" to={ '/agendar-cita' }>
-                    <i></i>
+                    <i className=" "></i>
                   Agendar Cita
                 </Link>
               </li>
@@ -37,13 +37,13 @@ const NavBar = () =>{
             <ul className="navbar-nav">
             <li className="nav-item">  
                 <Link className="nav-link active" to={ '/registrarse' }>
-                    <i></i>
+                    <i className="bi bi-box-arrow-in-right"></i>
                   Registrarse
                 </Link>
               </li>
               <li className="nav-item">  
                 <Link className="nav-link active" to={ '/login' }>
-                    <i></i>
+                    <i className="bi bi-people-fill"></i>
                   Login
                 </Link>
               </li>
