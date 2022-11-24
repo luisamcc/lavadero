@@ -27,7 +27,7 @@ const NavBar = () =>{
               </li>
               <li className="nav-item">
                 <Link className="nav-link active" to={ '/agendar-cita' }>
-                    <i className=" "></i>
+                    <i className="bi bi-calendar4-week"></i>
                   Agendar Cita
                 </Link>
               </li>
