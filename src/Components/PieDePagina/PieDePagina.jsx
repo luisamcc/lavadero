@@ -38,16 +38,16 @@ const PieDePagina = () => {
             <h5 className="text-uppercase pb-2">contenido</h5>
 
             <ul className="list-unstyled mb-0">
-              <li>
+              <li className='pb-3'>
                 <Link to={'/nosotros'} className="text-white bi bi-house"> Nosotros</Link>
               </li>
-              <li>
+              <li className='pb-3'>
                 <Link to={'/servicios'} className="text-white bi bi-car-front-fill"> Servicios</Link>
               </li>
-              <li>
-                <Link to={'/agendar-cita'} className="text-white "> Agendar cita</Link>
+              <li className='pb-3'>
+                <Link to={'/agendar-cita'} className="text-white bi bi-calendar4-week"> Agendar cita</Link>
               </li>
-              <li>
+              <li className='pb-3'>
                 <Link to={'/login'} className="text-white bi bi-people-fill"> Login</Link>
               </li>
             </ul>
