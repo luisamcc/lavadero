@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const PieDePagina = () => {
   return (
@@ -13,100 +14,59 @@ const PieDePagina = () => {
         <div className="row">
           {/* <!--Grid column--> */}
           <div className="col-lg-4 col-md-6 mb-4 mb-md-0">
-            <h5 className="text-uppercase">FOOTER CONTENT</h5>
+            <h5 className="text-uppercase">EGDA Solutions</h5>
 
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Molestiae modi cum ipsam ad, illo possimus laborum ut
-              reiciendis obcaecati. Ducimus, quas. Corrupti, pariatur eaque?
-              Reiciendis assumenda iusto sapiente inventore animi?
+              Creados para cuidar de su auto. Somos cars 
+              loverls con más de 10 años de experiencia. 
+              Contamos con los más altos estandares en 
+              limpieza, conservación y atención a su 
+              vehículo del mercado. Nos orgullesemos
+              de nuestro trabajo.
             </p>
           </div>
           {/* <!--Grid column--> */}
 
           {/* <!--Grid column--> */}
           <div className="col-lg-2 col-md-6 mb-4 mb-md-0">
-            <h5 className="text-uppercase">Links</h5>
-
-            <ul className="list-unstyled mb-0">
-              <li>
-                <a href="#!" className="text-white">Link 1</a>
-              </li>
-              <li>
-                <a href="#!" className="text-white">Link 2</a>
-              </li>
-              <li>
-                <a href="#!" className="text-white">Link 3</a>
-              </li>
-              <li>
-                <a href="#!" className="text-white">Link 4</a>
-              </li>
-            </ul>
+            <h5 className="text-uppercase"> </h5>
           </div>
           {/* <!--Grid column--> */}
 
           {/* <!--Grid column--> */}
           <div className="col-lg-2 col-md-6 mb-4 mb-md-0">
-            <h5 className="text-uppercase">Links</h5>
+            <h5 className="text-uppercase pb-2">contenido</h5>
 
             <ul className="list-unstyled mb-0">
               <li>
-                <a href="#!" className="text-white">Link 1</a>
+                <Link to={'/nosotros'} className="text-white bi bi-house"> Nosotros</Link>
               </li>
               <li>
-                <a href="#!" className="text-white">Link 2</a>
+                <Link to={'/servicios'} className="text-white bi bi-car-front-fill"> Servicios</Link>
               </li>
               <li>
-                <a href="#!" className="text-white">Link 3</a>
+                <Link to={'/agendar-cita'} className="text-white "> Agendar cita</Link>
               </li>
               <li>
-                <a href="#!" className="text-white">Link 4</a>
+                <Link to={'/login'} className="text-white bi bi-people-fill"> Login</Link>
               </li>
             </ul>
           </div>
           {/* <!--Grid column--> */}
 
           {/* <!--Grid column--> */}
-          <div className="col-lg-2 col-md-6 mb-4 mb-md-0">
-            <h5 className="text-uppercase">Links</h5>
+          <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 className="text-uppercase pb-2">Contactanos</h5>
 
             <ul className="list-unstyled mb-0">
-              <li>
-                <a href="#!" className="text-white">Link 1</a>
-              </li>
-              <li>
-                <a href="#!" className="text-white">Link 2</a>
-              </li>
-              <li>
-                <a href="#!" className="text-white">Link 3</a>
-              </li>
-              <li>
-                <a href="#!" className="text-white">Link 4</a>
-              </li>
+            <p><i className="bi bi-geo-alt"></i> Colombia</p>
+            <p><i className="bi bi-envelope"></i> info@egda.com</p>
+            <p><i className="bi bi-whatsapp"></i> + 57 234 567 89</p>
+            <p><i className="bi bi-instagram"></i> @EGDA_Solutions</p>
             </ul>
           </div>
           {/* <!--Grid column--> */}
 
-          {/* <!--Grid column--> */}
-          <div className="col-lg-2 col-md-6 mb-4 mb-md-0">
-            <h5 className="text-uppercase">Links</h5>
-
-            <ul className="list-unstyled mb-0">
-              <li>
-                <a href="#!" className="text-white">Link 1</a>
-              </li>
-              <li>
-                <a href="#!" className="text-white">Link 2</a>
-              </li>
-              <li>
-                <a href="#!" className="text-white">Link 3</a>
-              </li>
-              <li>
-                <a href="#!" className="text-white">Link 4</a>
-              </li>
-            </ul>
-          </div>
-          {/* <!--Grid column--> */}
         </div>
         {/* <!--Grid row--> */}
       </section>
@@ -117,28 +77,25 @@ const PieDePagina = () => {
 
       <section className="">
         <p className="d-flex justify-content-center align-items-center">
-          <span className="me-3">Register for free</span>
+          <span className="me-3">Ingresa gratis: </span>
+          <Link className="button" to={ '/registrarse' }>
           <button type="button" className="btn btn-outline-light btn-rounded">
-            Sign up!
+            Registrate!
           </button>
+          </Link>
         </p>
       </section>
 
 
       <hr className="mb-4" />
     </div>
-    <div
-        className="text-center p-3"
-        // style={{color: 'white'}}
-        //  style="background-color: rgba(0, 0, 0, 0.2)"
-         >
-      © 2020 Copyright:
-      <a className="text-white" href="https://mdbootstrap.com/"
-         >MDBootstrap.com</a
-        >
+    <div className="text-center p-3">
+      © Mision TIC 2022:
+      <p className="text-white">
+          U.Caldas - G32 - E2
+      </p>
     </div>
   </footer>
-{/* </div> */}
     </>
   )
 }
