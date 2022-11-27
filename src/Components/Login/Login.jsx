@@ -15,7 +15,7 @@ const Login = () => {
             <span className="p-inputgroup-addon">
               <i className="pi pi-user"></i>
             </span>
-            <InputText placeholder="Username" />
+            <InputText placeholder="Email" />
           </div>
           <div className="p-inputgroup" style={{ paddingTop: "20px" }}>
             <span className="p-inputgroup-addon">
@@ -33,7 +33,7 @@ const Login = () => {
             <Button type="submit" label="Submit" icon="pi pi-check" />
         </div>
         <div className="col-6">
-            <p>¿Aun no tienes una cuenta? <Link to='/registrarse'>Crear nueva cuenta</Link> </p>
+            <p>¿Aun no tienes una cuenta? <span><Link to='/registrarse'>Crear nueva cuenta</Link></span></p>
           </div>
         </center>
       </div>

@@ -92,7 +92,7 @@ main{
 	overflow: auto;
 	/* font-family: 'Open Sans'; */
 	border-radius: 2px;
-    bottom: 20px; height:400px; overflow-y: scroll;
+    /* bottom: 20px; height:400px; overflow-y: scroll; */
     right: 0;
     background: rgba(11, 11, 11, 0.52);
     opacity: 0,35;
