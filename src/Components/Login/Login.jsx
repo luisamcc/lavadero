@@ -6,8 +6,8 @@ import { Link } from "react-scroll";
 const Login = () => {
   return (
     <>
-    <form>
-      <div>LoginForm</div>
+    <form className="card-login">
+      <div>Login</div>
       <div className="login">
         <center>
         <div className="col-12 md:col-4" style={{ paddingLeft: "20px" }}>
