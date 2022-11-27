@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Login = () => {
   return (
     <>
-    <form>
+    <form className="card-login">
       <div>LoginForm</div>
       <div className="login">
         <center>
