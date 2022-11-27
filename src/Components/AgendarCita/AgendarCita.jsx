@@ -66,7 +66,7 @@ const AgendarCita = () => {
       <div className="box">
         <div className="boxCar">
           <div className="btnBox">
-            <p>Volver al incio <span><Link to={'../IndexApp'}>aquí</Link></span></p>
+            <p>Volver al incio <span><Link to={'/'}>aquí</Link></span></p>
           </div>
 
         </div>
