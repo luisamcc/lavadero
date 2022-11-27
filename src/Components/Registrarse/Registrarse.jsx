@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import InputRegister from "./InputRegister";
 
+
 const Registrarse = () => {
   //Un usesState con las propiedades de los name de los input
   const[ inputs, setInputs ] = useState({
